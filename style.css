@@ -161,6 +161,32 @@ section img {
 
 .item {
   text-align: center;
-  padding: 20px;
+  padding: 10px;
   box-sizing: border-box; /* Incluye el relleno en el tamaño total del elemento */
+}
+
+.clientes{
+  background-color: #3F4E62;
+}
+
+.clientes-title{
+  text-align: center;
+  padding: 20px;
+  font-size: 36px;
+  color: #ADFF28;
+}
+
+.container-img2{
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  margin-top: 10px;
+}
+
+.items2 img{
+  width: 180px;
+  height: 80px;
+  margin-right: 20px;
+  margin-bottom: 50px;
+  margin-top: 10px;
 }
