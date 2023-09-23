@@ -100,11 +100,13 @@ section img {
   line-height: 80px;
   text-transform: uppercase;
   color: #FFFFFF;
+  
 }
 
 .column1{
   flex-direction: column;
   width: 400px;
+  margin-bottom: 50px;
 }
 
 .column2{
@@ -127,5 +129,38 @@ section img {
   color: white;
   text-align: center;
   line-height: 30px;
+  
 }
 
+.item img{
+  width: 100px;
+  height: 100px;
+}
+
+.portafolio{
+  background-color: #FFD233;
+}
+
+.portafolio-title{
+  text-align: center;
+  line-height: 70px;
+  font-size: 30px;
+  padding: 30px;
+  color: #00AD84;
+}
+
+
+
+.container-img {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr); /* 4 columnas de igual ancho */
+  grid-gap: 10px; /* Espacio entre las celdas */
+  max-width: 800px; /* Ajusta el ancho máximo del contenedor */
+  margin: 0 auto; /* Centra el contenedor horizontalmente */
+}
+
+.item {
+  text-align: center;
+  padding: 20px;
+  box-sizing: border-box; /* Incluye el relleno en el tamaño total del elemento */
+}
