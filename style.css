@@ -190,3 +190,70 @@ section img {
   margin-bottom: 50px;
   margin-top: 10px;
 }
+
+.contacto{
+  background-color: #1687A0;
+}
+
+.contacto-title{
+  text-align: center;
+  color: #FF1B1B;
+  font-size: 30px;
+  padding: 20px;
+}
+
+form {
+  padding: 40px;
+  border-radius: 10px;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  margin-right: 80px;
+}
+
+.form-group {
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 5px;
+  margin-left: 40px;
+}
+
+.form-group label,
+.form-group input,
+.form-group textarea {
+  flex: 1;
+  margin-top: 10px; /* Espacio superior */
+  margin-right: 10 px; /* Espacio a la derecha */
+  margin-bottom: 10px; /* Espacio inferior */
+  margin-left: 5px; /* Espacio a la izquierda */
+  padding: 10px;
+}
+
+input[type="submit"] {
+  background-color: #233451;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+  font-size: 30px;
+  margin: 20px 0;
+  margin-left: 90px;
+}
+
+.form-group input{
+  padding: 20px;
+  display: flex;
+  margin-right: 50px;
+  width: 300px;
+}
+
+.form-groupp textarea{
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  margin-bottom: 10px;
+  width: 595px;
+  padding: 20px;
+  margin-left: 105px;
+}
+
